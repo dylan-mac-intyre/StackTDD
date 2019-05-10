@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35ad3b19-ecfe-4b30-9bbf-880739065c0e" name="Default Changelist" comment="" />
+    <list default="true" id="35ad3b19-ecfe-4b30-9bbf-880739065c0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ReversePolishNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ReversePolishNotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Stack.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -10,6 +15,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/stack$ReversePolishNotationTest.ic" NAME="ReversePolishNotationTest Coverage Results" MODIFIED="1557486414936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myFlattenPackages" value="true" />
+    <option name="myElementSize" value="412" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -20,47 +32,43 @@
     <session id="-642159088">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1115" />
+          <entry key="java" value="2517" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1115" />
+          <entry key="JAVA" value="2517" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.30240226">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Stack.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
-                  <folding>
-                    <element signature="e#375#376#0" expanded="true" />
-                    <element signature="e#408#409#0" expanded="true" />
-                    <element signature="e#775#776#0" expanded="true" />
-                    <element signature="e#802#803#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="270">
+                  <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -70,12 +78,47 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/StackTest.java">
+            <entry file="file://$PROJECT_DIR$/src/test/java/ReversePolishNotationTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="645">
-                  <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+                <state relative-caret-position="75">
+                  <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#303#304#0" expanded="true" />
+                    <element signature="e#349#350#0" expanded="true" />
+                    <element signature="e#397#398#0" expanded="true" />
+                    <element signature="e#444#445#0" expanded="true" />
+                    <element signature="e#505#506#0" expanded="true" />
+                    <element signature="e#567#568#0" expanded="true" />
+                    <element signature="e#624#625#0" expanded="true" />
+                    <element signature="e#690#691#0" expanded="true" />
+                    <element signature="e#747#748#0" expanded="true" />
+                    <element signature="e#813#814#0" expanded="true" />
+                    <element signature="e#872#873#0" expanded="true" />
+                    <element signature="e#938#939#0" expanded="true" />
+                    <element signature="e#995#996#0" expanded="true" />
+                    <element signature="e#1063#1064#0" expanded="true" />
+                    <element signature="e#1118#1119#0" expanded="true" />
+                    <element signature="e#1147#1148#0" expanded="true" />
+                    <element signature="e#1254#1255#0" expanded="true" />
+                    <element signature="e#1339#1340#0" expanded="true" />
+                    <element signature="e#1399#1400#0" expanded="true" />
+                    <element signature="e#1489#1490#0" expanded="true" />
+                    <element signature="e#1530#1531#0" expanded="true" />
+                    <element signature="e#1620#1621#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ReversePolishNotation.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+                  <folding>
+                    <element signature="e#192#193#0" expanded="true" />
+                    <element signature="e#240#241#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -92,6 +135,9 @@
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -272,7 +318,9 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$" value="6229648458000" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="4184842974" />
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="907546447" />
       </map>
     </option>
@@ -397,6 +445,8 @@
         <option value="$PROJECT_DIR$/src/test/java/StackUT.java" />
         <option value="$PROJECT_DIR$/src/test/java/StackTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Stack.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ReversePolishNotationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReversePolishNotation.java" />
       </list>
     </option>
   </component>
@@ -406,18 +456,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1541" />
+    <option name="width" value="2560" />
     <option name="height" value="1413" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -460,6 +509,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -468,7 +519,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557417329659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557486834895" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
@@ -498,7 +549,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StackTest">
+  <component name="RunManager" selected="JUnit.ReversePolishNotationTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -511,53 +562,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReversePolishNotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackTest" />
+      <option name="MAIN_CLASS_NAME" value="ReversePolishNotationTest" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest.stackIsEmptyTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReversePolishNotationTest.testCalculationReturnsTen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackTest" />
-      <option name="METHOD_NAME" value="stackIsEmptyTrue" />
+      <option name="MAIN_CLASS_NAME" value="ReversePolishNotationTest" />
+      <option name="METHOD_NAME" value="testCalculationReturnsTen" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest.testGrows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReversePolishNotationTest.testIncorrectFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackTest" />
-      <option name="METHOD_NAME" value="testGrows" />
+      <option name="MAIN_CLASS_NAME" value="ReversePolishNotationTest" />
+      <option name="METHOD_NAME" value="testIncorrectFormat" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest.testPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReversePolishNotationTest.testIsANumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackTest" />
-      <option name="METHOD_NAME" value="testPop" />
+      <option name="MAIN_CLASS_NAME" value="ReversePolishNotationTest" />
+      <option name="METHOD_NAME" value="testIsANumber" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest.testSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReversePolishNotationTest.testLongCalculation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackTest" />
-      <option name="METHOD_NAME" value="testSize" />
+      <option name="MAIN_CLASS_NAME" value="ReversePolishNotationTest" />
+      <option name="METHOD_NAME" value="testLongCalculation" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -588,19 +639,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StackTest" />
-      <item itemvalue="JUnit.StackTest.testPop" />
-      <item itemvalue="JUnit.StackTest.testGrows" />
-      <item itemvalue="JUnit.StackTest.testSize" />
-      <item itemvalue="JUnit.StackTest.stackIsEmptyTrue" />
+      <item itemvalue="JUnit.ReversePolishNotationTest.testIsANumber" />
+      <item itemvalue="JUnit.ReversePolishNotationTest" />
+      <item itemvalue="JUnit.ReversePolishNotationTest.testCalculationReturnsTen" />
+      <item itemvalue="JUnit.ReversePolishNotationTest.testLongCalculation" />
+      <item itemvalue="JUnit.ReversePolishNotationTest.testIncorrectFormat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StackTest" />
-        <item itemvalue="JUnit.StackTest.testGrows" />
-        <item itemvalue="JUnit.StackTest.stackIsEmptyTrue" />
-        <item itemvalue="JUnit.StackTest.testSize" />
-        <item itemvalue="JUnit.StackTest.testPop" />
+        <item itemvalue="JUnit.ReversePolishNotationTest" />
+        <item itemvalue="JUnit.ReversePolishNotationTest.testIncorrectFormat" />
+        <item itemvalue="JUnit.ReversePolishNotationTest.testLongCalculation" />
+        <item itemvalue="JUnit.ReversePolishNotationTest.testCalculationReturnsTen" />
+        <item itemvalue="JUnit.ReversePolishNotationTest.testIsANumber" />
       </list>
     </recent_temporary>
   </component>
@@ -614,79 +665,82 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557412110035</updated>
-      <workItem from="1557412111826" duration="5014000" />
+      <workItem from="1557412111826" duration="5792000" />
+      <workItem from="1557475493389" duration="8935000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StackTest - 2019.05.09 at 16h 25m 43s.xml">
-      <configuration name="StackTest" configurationId="JUnit" />
+    <history-entry file="ReversePolishNotationTest - 2019.05.10 at 12h 01m 13s.xml">
+      <configuration name="ReversePolishNotationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest - 2019.05.09 at 16h 29m 22s.xml">
-      <configuration name="StackTest" configurationId="JUnit" />
+    <history-entry file="ReversePolishNotationTest - 2019.05.10 at 12h 03m 02s.xml">
+      <configuration name="ReversePolishNotationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_stackIsEmptyTrue - 2019.05.09 at 16h 29m 35s.xml">
-      <configuration name="StackTest.stackIsEmptyTrue" configurationId="JUnit" />
+    <history-entry file="ReversePolishNotationTest - 2019.05.10 at 12h 03m 12s.xml">
+      <configuration name="ReversePolishNotationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_stackIsEmptyTrue - 2019.05.09 at 16h 30m 04s.xml">
-      <configuration name="StackTest.stackIsEmptyTrue" configurationId="JUnit" />
+    <history-entry file="ReversePolishNotationTest - 2019.05.10 at 12h 03m 52s.xml">
+      <configuration name="ReversePolishNotationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest - 2019.05.09 at 16h 32m 21s.xml">
-      <configuration name="StackTest" configurationId="JUnit" />
+    <history-entry file="ReversePolishNotationTest - 2019.05.10 at 12h 05m 20s.xml">
+      <configuration name="ReversePolishNotationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest - 2019.05.09 at 16h 33m 28s.xml">
-      <configuration name="StackTest" configurationId="JUnit" />
+    <history-entry file="ReversePolishNotationTest - 2019.05.10 at 12h 05m 30s.xml">
+      <configuration name="ReversePolishNotationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_testGrows - 2019.05.09 at 16h 37m 20s.xml">
-      <configuration name="StackTest.testGrows" configurationId="JUnit" />
+    <history-entry file="ReversePolishNotationTest - 2019.05.10 at 12h 05m 56s.xml">
+      <configuration name="ReversePolishNotationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest - 2019.05.09 at 16h 37m 30s.xml">
-      <configuration name="StackTest" configurationId="JUnit" />
+    <history-entry file="ReversePolishNotationTest - 2019.05.10 at 12h 06m 58s.xml">
+      <configuration name="ReversePolishNotationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest - 2019.05.09 at 16h 43m 32s.xml">
-      <configuration name="StackTest" configurationId="JUnit" />
+    <history-entry file="ReversePolishNotationTest - 2019.05.10 at 12h 12m 40s.xml">
+      <configuration name="ReversePolishNotationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest - 2019.05.09 at 16h 44m 01s.xml">
-      <configuration name="StackTest" configurationId="JUnit" />
+    <history-entry file="ReversePolishNotationTest - 2019.05.10 at 12h 13m 18s.xml">
+      <configuration name="ReversePolishNotationTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5014000" />
+    <option name="totallyTimeSpent" value="14727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1413" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1556791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15687053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.329296" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.329296" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.329296" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329296" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28538987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.329296" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329296" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329296" />
+      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.329296" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32962668" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -696,36 +750,64 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/StackUT.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StackUT.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/StackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" />
+        <state relative-caret-position="509">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReversePolishNotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ReversePolishNotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
-          <folding>
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
